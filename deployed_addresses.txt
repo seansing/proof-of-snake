@@ -1,0 +1,4 @@
+Proof-of-Snake Contract details:
+
+Testnet: Rinkeby
+Address: 
