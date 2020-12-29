@@ -1,4 +1,4 @@
-##Design pattern decisions
+## Design pattern decisions
 
 1. Withdrawal pattern - this design pattern was selected primarily to avoid a Denial of Service with Failed Call (SWC-113). Although it is better to have the smart contract automatically distribute the earnings from the game fees to the respective earners, a malicious hacker can use a contract account to register as a player and utilize a fallback function to run malicious code or essentially stop the distribution function from completing.
 

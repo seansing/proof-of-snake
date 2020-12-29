@@ -1,12 +1,12 @@
-#Proof-of-Snake
+# Proof-of-Snake
 
-##Overview
+## Overview
 
 The Proof-of-Snake game is based off the classic snake game that we all know and love with a twist; the high scorer earns Ethereum from every courageous attempt to beat his high score. You earn by being the best! In addition, a ERC-721 token is rewarded whenever a player beats the current high score.
 
 This is made possible by tracking the high scoreand token ownership the with smart contracts that run on the Ethereum blockchain. The Proof-of-Snake project currently lives on the Rinkeby blockchain. In order to try it, you will need to have test ether on the Rinkeby network that you can request from a faucet.
 
-##How does Proof-of-Snake work?
+## How does Proof-of-Snake work?
 
 Every time a player pays the game fee to play the game, the fee is split between the game creator (to support his development works) and the current high scorer. The game only starts once the payment fee has been succesfully transacted.
 
@@ -14,7 +14,7 @@ The smart contract has a mapping that keeps track of the balance that the curren
 
 Once the high score is beaten, the smart contract assigns a new leader and the contract now allows the previous high scorer to withdraw his funds. From here on, every fee from new play attempts goes to the new leader and game creator.
 
-##Directory structure
+## Directory structure
 
 - client folder - Front end code for Proof-of-Snake that was built with React.js.
 
