@@ -1,4 +1,4 @@
 Proof-of-Snake Contract details:
 
 Testnet: Rinkeby
-Address: 
+Address: 0x92A326067ed1413c6a36D1D1f639feAe44a860cb

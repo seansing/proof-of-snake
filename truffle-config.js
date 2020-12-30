@@ -1,4 +1,7 @@
 const path = require("path");
+const HDWalletProvider = require("@truffle/hdwallet-provider");
+
+const mnemonic = "";
 
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
@@ -10,6 +13,15 @@ module.exports = {
       port: 8545,
       network_id: "*", // match any network
       websockets: true,
+    },
+    rinkeby: {
+      provider: function () {
+        return new HDWalletProvider(
+          mnemonic,
+          "https://rinkeby.infura.io/v3/34bb6876409d4c3784f2517f602bd626"
+        );
+      },
+      network_id: 4,
     },
   },
   compilers: {

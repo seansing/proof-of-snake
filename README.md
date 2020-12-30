@@ -24,7 +24,7 @@ Once the high score is beaten, the smart contract assigns a new leader and the c
 
 - test - Folder containing test for the smart contract written in JavaScript.
 
-##Building and running the project locally
+## Building and running the project locally
 
 1. Clone this repo to your local environment.
 2. run `cd proof-of-snake`

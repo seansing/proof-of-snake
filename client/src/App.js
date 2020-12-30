@@ -15,8 +15,6 @@ const getRandomCoordinates = () => {
   return [x, y];
 };
 
-var intervalId;
-
 class App extends Component {
   state = {
     currentLeader: 0,
