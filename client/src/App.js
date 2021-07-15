@@ -178,6 +178,8 @@ class App extends Component {
       case " ":
         e.preventDefault();
         break;
+      default:
+        break;
     }
   };
 
@@ -198,6 +200,8 @@ class App extends Component {
         break;
       case "DOWN":
         head = [head[0], head[1] + 4];
+        break;
+      default:
         break;
     }
     //add new head to snake
@@ -410,12 +414,18 @@ class App extends Component {
     if (this.state.tokenBalance > 0) {
       return (
         <div className="header-token">
-          <img className="snake-logo" src="/poshscoingold.png" />
+          <img
+            className="snake-logo"
+            alt="snake logo"
+            src="/poshscoingold.png"
+          />
           <h4 className="token-number">x {this.state.tokenBalance}</h4>
         </div>
       );
     } else {
-      return <img className="snake-logo" src="/snakelogo.png" />;
+      return (
+        <img className="snake-logo" alt="snake logo" src="/snakelogo.png" />
+      );
     }
   }
 
