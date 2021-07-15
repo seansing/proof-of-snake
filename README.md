@@ -1,5 +1,9 @@
 # Proof-of-Snake
 
+Don't have time to read about the project? No problems!
+
+Connect to the Rinkeby Testnet and visit the game [here](https://proof-of-snake.vercel.app/)!
+
 ## Overview
 
 The Proof-of-Snake game is based off the classic snake game that we all know and love with a twist; the high scorer earns Ethereum from every courageous attempt to beat his high score. You earn by being the best! In addition, a ERC-721 token is rewarded whenever a player beats the current high score.
